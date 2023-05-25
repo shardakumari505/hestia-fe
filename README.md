@@ -1,2 +1,2 @@
 # hestia-fe
-Hestia's Front End prototype
+Hestia's Front End Prototype
