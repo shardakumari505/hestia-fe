@@ -13,23 +13,18 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid gray;
-    // background-color: aqua;
 }
 
-// .loggedin-page-top-left{
-//     background-color: rgb(56, 128, 104);
-//     background-color: aquamarine;
-//     width: 20%;
-//     height: 10vh;
-//     margin: 0 0 0 20px;
-//     background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31");
-// }
+.loggedin-page-top-left-navigation-panel{
+    width: 5%;
+    height: 10vh;
+    z-index: 99;
+}
 
 .logo-left{
     height: 5vh;
     width: 12%;
-    margin: 0 0 0 20px;
-    // background-color: aquamarine;
+    margin: 0 0 0 3%;
     background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31");
     background-size: contain;
     background-repeat: no-repeat;
@@ -37,7 +32,7 @@
 }
 
 .loggedin-page-top-text{
-    width: 80%;
+    width: 72%;
     font-size: 1.2rem;
     font-family: Montserrat;
 }
@@ -51,7 +46,6 @@
     justify-content: center;
     cursor: pointer;
     transition: all 0.5s ease;
-    // background-color: aquamarine;
 }
 
 .loggedin-page-profile-view-option{
@@ -63,7 +57,7 @@
 }
 
 .loggedin-page-profile-view-option:hover{
-    background-color: rgb(215, 212, 212);
+    background-color: rgb(190, 190, 182);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +81,6 @@
 
 .right:hover{
     height: 40vh;
-    // background-color: rgb(188, 227, 217);
     background-color: rgb(239, 238, 238);
     border-radius: 18px;
     .loggedin-page-profile-view-container{
@@ -175,5 +168,5 @@
     justify-content: center;
     align-items: center;
     border-top: 0.5px solid gray;
-    background-color: rgb(224, 240, 238);
+    background-color: rgb(219, 219, 232);
 }
