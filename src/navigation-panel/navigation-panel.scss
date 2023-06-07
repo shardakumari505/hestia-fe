@@ -11,10 +11,16 @@
   position: fixed;
   top: 10vh;
   left: 0;
-  width: 150px;
-  height: 84.6vh;
-  background: linear-gradient(0deg, rgba(200, 199, 169, 1) 0%, rgba(140, 140, 168, 1) 100%);
+  width: 200px;
+  height: 84.8vh;
+  // background: linear-gradient(0deg, rgb(169, 200, 176) 0%, rgb(166, 168, 140) 100%);
+  // background: linear-gradient(0deg, rgb(216, 242, 222) 0%, rgb(224, 226, 193) 100%);
+  // background: linear-gradient(0deg, rgb(97, 194, 80,0.5) 0%, rgb(0, 161, 222,0.5) 100%);
+  background-color: #c8c8c8;
   box-shadow: 1px 1px 1px 1px gray;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .nav-panel-link{
@@ -23,7 +29,7 @@
 }
 
 .navlist ul {
-  margin: 0 0 0 0;
+  margin: 8vh 0 0 0;
   padding: 0;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -32,10 +38,11 @@
 .navlist li {
   list-style: none;
   display: flex;
-  width: 150px;
+  width: 140px;
+  align-items: center;
   // margin-left: 10px;
   margin-top: 1px;
-  padding: 10px 0;
+  padding: 10px 30px;
 }
 
 .navlist ul li span {
@@ -43,56 +50,11 @@
 }
 
 .navlist ul li:hover {
-  background-color: rgba(200, 199, 169, 0.5);
-  // border-radius: 5px;
-  // border: 1px solid gray;
+  background-color: rgba(235, 235, 234, 0.5);
   backdrop-filter: blur(10px);
-  color: aliceblue;
+  color: #505050;
 }
 
 .hamburger {
-  border: none;
-  outline: 0;
-  height: 6vh;
-  width: 45px;
-  position: absolute;
-  right: -60px;
-  background-color: transparent;
   cursor: pointer;
-}
-
-.navlist .active .hamburger {
-  margin-right: 12vw;
-  margin-top: 2vh;
-  height: 6vh;
-  width: 45px;
-  border-radius: 5px;
-}
-
-.hamburger:after,
-.hamburger:before,
-.hamburger div {
-  background-color: #101010;
-  height: 0.5vh;
-  margin: 1vh 0;
-  border-radius: 3px;
-  content: "";
-  display: block;
-  transition: all 300ms ease-in-out;
-}
-
-.navlist.active .hamburger:before {
-  transform: translateY(12px) rotate(135deg);
-  height: 3px;
-  margin: 4px 0;
-}
-
-.navlist.active .hamburger::after {
-  transform: translateY(-12px) rotate(-135deg);
-  height: 3px;
-  margin: 12px 0;
-}
-
-.navlist.active .hamburger div {
-  transform: scale(0);
 }
