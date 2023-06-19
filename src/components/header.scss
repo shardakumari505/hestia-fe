@@ -11,9 +11,24 @@
 
 .header-page-top-left-navigation-panel {
     // width: 5%;
-    // height: 10vh;
+    height: 10vh;
+    width: 15vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
     z-index: 99;
-    background-color: beige;
+    // background-color: beige;
+}
+
+.header-page-top-navigation{
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aquamarine;
 }
 
 .logo-left {
@@ -21,10 +36,13 @@
     top: 0;
     display: flex;
     align-items: center;
-    left: 20px;
+    justify-content: center;
+    // left: 20px;
     height: 10vh;
+    width: 7vw;
     // margin: 0 0 0 20px;
     cursor: pointer;
+    // background-color: aqua;
 }
 
 .logo-1 {
