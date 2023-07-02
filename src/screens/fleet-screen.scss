@@ -1,0 +1,23 @@
+.fleet-screen-container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background-color: antiquewhite;
+}
+
+.drop-container{
+    height: 70vh;
+    width: 100vw;
+    // background-color: bisque;
+}
+
+.cluster-container{
+    height: 40vh;
+    width: 40vw;
+    background-color: aqua;
+}
+
+.dropped-items{
+    background-color: aquamarine;
+}

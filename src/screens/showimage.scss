@@ -1,0 +1,15 @@
+.image-container{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.image{
+    height: 10vh;
+    width: 10vw;
+    margin: 20px;
+    object-fit: cover;
+    background-color: antiquewhite;
+}
