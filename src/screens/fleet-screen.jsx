@@ -84,12 +84,16 @@ const FleetScreen = () => {
         >
             <Box component="main" sx={{ flexGrow: 1, p: 1 }}>
 
-                <Stack direction="row" style={{width:"95%",paddingLeft:"10px"}} spacing={3}>
+                <Stack direction="row" style={{width:"98%",paddingLeft:"10px", display:"flex", justifyContent:"space-between"}} spacing={3}>
+                    <div style={{display:"flex"}} >
                     <Typography variant="h6" noWrap component="div">
                         Fleet Details - props.fleetName-0
                     </Typography>
-                    <Button variant="outlined" color="primary" type="submit" align="center" startIcon={<CancelIcon />}>Cancel</Button>
+                    <Button style={{marginLeft:"20px"}} variant="outlined" color="primary" type="submit" align="center" startIcon={<CancelIcon />}>Cancel</Button>
+                    </div>
+                    <div>
                     <Button variant="contained" color="primary" type="submit" align="center" startIcon={<SaveIcon />} > Save</Button> &nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
                 </Stack>
                 <br />
 
@@ -136,7 +140,7 @@ const FleetScreen = () => {
                             <br />
 
                             <Paper elevation={2} sx={{ minHeight:"20vh",width: '95%', mb: 3, display:"flex",flexDirection:"column",alignItems:"center" }}>
-                                Clusters...
+                                CLUSTERS
                                 <Grid style={{display:"flex", flexWrap:"wrap",gap:"10px",width:"95%", padding:"5px"}} item>
                                     {droppedItems.map((item, index) => (
                                         <ClusterContainer key={index}>{item.name}</ClusterContainer>

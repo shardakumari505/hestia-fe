@@ -15,7 +15,7 @@ const Header = () => {
                 <Link className='' to='/'><div className="logo-left"><img className="logo-1" src={Logo} alt="az" /></div></Link>
             </div>
 
-            <div className="header-page-top-text">Control Panel</div>
+            <div className="header-page-top-text">Private SAAS (&#945;)</div>
 
             <div className="logo-right"><img className="logo-2" src={Mslogo} alt="microsoft" /></div>
 
