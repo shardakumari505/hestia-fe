@@ -5,6 +5,7 @@ import Loggedinpage from './Logged-in-page/loggedinpage';
 import Fleets from './screens/fleets';
 import FleetScreen from './screens/fleet-screen';
 import ClusterScreen from './screens/clusters-screen';
+import OnboardingPage from './screens/onboarding/onboarding';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/fleet' element={<Fleets />} />
           <Route path='/fleetscreen' element={<FleetScreen />} />
           <Route path='/cluster' element={<ClusterScreen />} />
+          <Route path='/onboarding' element={<OnboardingPage />} />
         </Routes>
       </Router>
     </div>

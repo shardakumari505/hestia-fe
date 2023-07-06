@@ -14,6 +14,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import DeviceHubIcon from '@mui/icons-material/DeviceHub';
 import HubIcon from '@mui/icons-material/Hub';
 import MenuIcon from '@mui/icons-material/Menu';
+import FiberNewIcon from '@mui/icons-material/FiberNew';
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
@@ -45,6 +46,7 @@ export default function TemporaryDrawer() {
       <List>
         {[
           { text: 'Dashboard', icon: <DashboardIcon />, link: '/' },
+          { text: 'Onboarding', icon: <FiberNewIcon />, link: '/onboarding' },
           { text: 'Fleets', icon: <DeviceHubIcon />, link: '/fleet' },
           { text: 'Clusters', icon: <HubIcon />, link: '/cluster' },
           { text: 'Operators', icon: <PeopleIcon />, link: '/cluster' },
