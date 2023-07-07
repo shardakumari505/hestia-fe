@@ -83,7 +83,7 @@ const FleetScreen = () => {
         >
             <Box component="main" sx={{ flexGrow: 1, p: 1 }}>
 
-                <Stack direction="row" style={{width:"98%",paddingLeft:"10px", display:"flex", justifyContent:"space-between"}} spacing={3}>
+                <Stack direction="row" style={{width:"99%",paddingLeft:"10px", display:"flex", justifyContent:"space-between"}}>
                     <div style={{display:"flex"}} >
                     <Typography variant="h6" noWrap component="div">
                         Fleet Details - props.fleetName-0
@@ -91,7 +91,7 @@ const FleetScreen = () => {
                     <Button style={{marginLeft:"20px"}} variant="outlined" color="primary" type="submit" align="center" startIcon={<CancelIcon />}>Cancel</Button>
                     </div>
                     <div>
-                    <Button variant="contained" color="primary" type="submit" align="center" startIcon={<SaveIcon />} > Save</Button> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Button variant="contained" color="primary" type="submit" align="center" startIcon={<SaveIcon />} > Save</Button>
                     </div>
                 </Stack>
                 <br />
@@ -132,7 +132,6 @@ const FleetScreen = () => {
                                     label="Notes"
                                     style={{marginLeft:"25px"}}
                                     multiline
-                                    rows={5}
                                 />
                             </div>
 
